@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# Build output
+dist/
+
+# Logs
+*.log
+*.log.*
+
+# Office Add-in certificates
+.office-addin-dev-certs/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+DS_Store
+
+# Local settings
+.env
+.env.local
