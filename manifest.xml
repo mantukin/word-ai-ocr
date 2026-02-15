@@ -4,7 +4,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="AI Word OCR"/>
+  <DisplayName DefaultValue="Word AI OCR"/>
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-64.png"/>
@@ -72,13 +72,13 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!" />
-        <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group" />
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane" />
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with Word AI OCR!" />
+        <bt:String id="CommandsGroup.Label" DefaultValue="AI Reconstruction" />
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Open Word AI OCR" />
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Show Task Pane' button to get started." />
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Task Pane" />
+        <bt:String id="GetStarted.Description" DefaultValue="Word AI OCR loaded successfully. Click 'Open Word AI OCR' to start reconstructing your documents." />
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Open the Word AI OCR reconstruction panel" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
