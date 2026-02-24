@@ -18,7 +18,8 @@ export interface ParagraphStyle extends TextStyle {
   indentRight?: number;     // Points
   spacingBefore?: number;   // Points
   spacingAfter?: number;    // Points
-  lineSpacing?: number;     // Multiplier (e.g., 1.5)
+  lineSpacing?: number;     // Multiplier (e.g., 1.5) when lineRule is 'Multiple', or points when 'AtLeast'/'Exactly'
+  lineRule?: 'Multiple' | 'AtLeast' | 'Exactly'; // Default: 'Multiple'
 }
 
 export interface TextRun {

@@ -4,6 +4,7 @@ node_modules/
 # IDE files
 .vscode/
 .idea/
+.gemqol
 
 # Build output
 dist/

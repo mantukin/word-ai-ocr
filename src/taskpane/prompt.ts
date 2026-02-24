@@ -26,7 +26,11 @@ BLOCK TYPES:
     "fontSize": number,
     "fontFamily": "Font Name (e.g., 'Times New Roman')",
     "indentFirstLine": number (points),
-    "indentLeft": number (points)
+    "indentLeft": number (points),
+    "lineSpacing": number (multiplier, e.g. 1.0 = single, 1.5 = one-and-a-half, 2.0 = double),
+    "lineRule": "Multiple" | "AtLeast" | "Exactly" (default "Multiple"),
+    "spacingBefore": number (points, spacing before paragraph),
+    "spacingAfter": number (points, spacing after paragraph)
   }
 }
 
